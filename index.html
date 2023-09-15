@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AluraBooks</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="Styles.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+  </head>
+  <body>
+    <header class="cabeçalho">
+        <div class="container">
+          <input type="checkbox" id="Menu" class="container_botao">
+          <label for="Menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <Ul class="lista_menu">
+        <li class="lista_menu_titulo">Categorias </li>
+        <li class="lista_menu_item"> 
+        <a href="#" class="lista_menu_link">Programaçao </a>
+        </li>
+        <li class="lista_menu_item"> 
+          <a href="#" class="lista_menu_link">Front-end</a>
+          </li>
+          <li class="lista_menu_item"> 
+            <a href="#" class="lista_menu_link">Infraestrutura</a>
+            </li>
+            <li class="lista_menu_item"> 
+              <a href="#" class="lista_menu_link">Business</a>
+              </li>
+              <li class="lista_menu_item"> 
+                <a href="#" class="lista_menu_link">Design & UX </a>
+                </li>
+                 <li class="lista_menu_item"> 
+                <a href="https://www.roblox.com/" class="lista_menu_link">Road Blocks</a>
+                </li>
+                
+      </Ul>
+        <img src="./img/Menu.svg" alt="Logo da Alurabooks" class="container__imagem">
+        <img src="./img/Logo.svg" alt="Logo da Alurabooks">
+      </div>
+      
+        <div class="container">
+        <a href="#"><img src="./img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+        <a href="#"><img src="./img/Sacola.svg" alt="Carrinho de compras" class="container__imagem"></a>
+    <a href="#"><img src="./img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+      </div>  
+
+        </header>
+
+        <section class="banner">
+        <h2 class="banner_titulo">Já sabem por onde começar?</h2>
+        <p class="banner_texto">Encontre em nossa
+          estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner_pesquisa"
+        placeholder="Qual será a sua próxima leitura?">
+        </section>
+        <section class="carrossel">
+          <h2 class="carrossel__titulo">Novos lançamentos</h2>
+
+          <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/ApacheKafka.svg"
+                alt="Livro sobre apache Kafka e spring boot da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/Javascript.svg"
+                  alt="Livro sobre apache Kafka e spring boot da AluraBooks"></div>
+                  <div class="swiper-slide"><img src="img/Portugol.svg"
+                    alt=”Livro sobre Portugol da AluraBooks”></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </section>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+          <script>const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+},
+          });
+          </script>
+  </body>
+</html>
