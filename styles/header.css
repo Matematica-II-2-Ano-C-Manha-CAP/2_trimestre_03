@@ -1,4 +1,11 @@
-.cabeçalho__menu-hamburguer{
+@media screen and (min-width: 1024px) {
+    .container_titulo,
+.container_titulo--negrito {
+font-family: var(--fonte-secundario);
+font-size: 30px;
+}
+}
+ .cabeçalho_menu-hamburguer{
     width: 24px;
     height: 24px;
     background-image: url ("./img/Menu.svg");
@@ -13,8 +20,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-}
-
+} 
 .container {
     display: flex;
     align-items: center;
@@ -56,3 +62,7 @@
 .container_botao {
     display: none;
 }
+.container_titulo {
+    font-weight: 400;
+    display: block;
+    }

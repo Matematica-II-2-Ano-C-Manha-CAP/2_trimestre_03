@@ -6,21 +6,21 @@
 .topicos_titulo {
         color: var(--branco);
         font-weight: 300;
-        margin-bottom: 1em;
+        margin-bottom: 4em;
     }
 .topicos_lista {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }  
-.topicos-item {
-    margin: 2em 0.5em;
-}
-.topicos_link {
+    }
+    .topicos_link {
     color: var(--branco);
     padding: 1em;
     background-color: var(--laranja);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
-    }
+    }  
+.topicos-item {
+    margin: 2em 0.5em;
+}
