@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="Styles.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link 
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
@@ -19,7 +22,7 @@
         <div class="container">
           <input type="checkbox" id="Menu" class="container_botao">
           <label for="Menu">
-        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+        <span class="cabeçalho_menu-hamburguer container_imagem"></span>
       </label>
       <Ul class="lista_menu">
         <li class="lista_menu_titulo">Categorias </li>
@@ -43,14 +46,46 @@
                 </li>
                 
       </Ul>
-        <img src="./img/Menu.svg" alt="Logo da Alurabooks" class="container__imagem">
-        <img src="./img/Logo.svg" alt="Logo da Alurabooks">
+        <img src="./img/Menu.svg" alt="Logo da Alurabooks" class="container_imagem">
+        <img src="./img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+        <h1 class="container_titulo"><b class="container_titulo--negrito">
+          Alura</b>Books</h1>
       </div>
+
+      <ul class="opcoes">
+        <li class="opcoes_item">Categorias</li>
+        <li class="opcoes_item"><a href="#" class="opcoes_link">
+        Favoritos</a></li>
+        <li class="opcoes_item"><a href="#" class="opcoes_link">Minha
+        estante</a></li>
+        <input type="checkbox" id="opcoes-menu" class="opcoes_botao">
+<label for="opcoes-menu">
+<li class="opcoes_item">Categorias</li>
+</label>
+<ul class="lista-menu">
+  <li class="lista-menu_item">
+  <a href="#" class="lista-menu_link">Programação</a>
+  </li>
+  <li class="lista-menu_item">
+  <a href="#" class="lista-menu_link">Front-end</a>
+  </li>
+  <li class="lista-menu_item">
+  <a href="#" class="lista-menu_link">Infraestrutura</a>
+  </li>
+  <li class="lista-menu_item">
+  <a href="#" class="lista-menu_link">Business</a>
+  </li>
+  <li class="lista-menu_item">
+  <a href="#" class="lista-menu_link">Design & UX</a>
+  </li>
+  </ul>
+        </ul>
       
         <div class="container">
-        <a href="#"><img src="./img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-        <a href="#"><img src="./img/Sacola.svg" alt="Carrinho de compras" class="container__imagem"></a>
-    <a href="#"><img src="./img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+        <a href="#"><img src="./img/Favoritos.svg" alt="Meus favoritos" class="container_imagem container_imagem-transparente"></a>
+        <a href="#"><img src="./img/Sacola.svg" alt="Carrinho de compras" class="container_imagem"></a>
+    <a href="#"><img src="./img/Usuario.svg" alt="Meu perfil" class="container_imagem"></a>
+    
       </div>  
 
         </header>
@@ -87,7 +122,7 @@
                 <p class="descricao_texto">Construindo uma aplicação integrada
                 com a plataforma do Google.</p>
                 </div>
-                <img src="img/Angular (1).svg" class="descricao__imagem">
+                <img src="img/Angular (1).svg" class="descricao_imagem">
               
             </div>
             <div class="card_botoes">
@@ -106,10 +141,10 @@
             </div>
         </section>
         <section class="topicos">
-          <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
-          <ul class="topicos__lista">
-          <li class="topicos__item">
-          <a href="#" class="topicos__link">Android</a>
+          <h2 class="topicos_titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+          <ul class="topicos_lista">
+          <li class="topicos_item">
+          <a href="#" class="topicos_link">Android</a>
           <li class="topicos_item">
             <a href="#" class="topicos_link">Marketing Digital</a>
             </li>
@@ -132,14 +167,29 @@
             <a href="#" class="topicos_link">OO</a>
             
             </li>
-            <li class="topicos__item">
+            <li class="topicos_item">
             
-            <a href="#" class="topicos__link">Java</a>
+            <a href="#" class="topicos_link">Java</a>
             
             </li>
           </li>
           </ul>
           </section>
+          <section class="contato">
+
+            <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
+            <p class="contato_texto">Atualizações de e-books, novos livros,
+            promoções e outros.</p>
+            
+            <input type="email" placeholder="Cadastre se e-mail"
+            
+            class="contato_email">
+            </section>
+            <hr/>
+            <footer class="rodape">
+            <h2 class="rodape_titulo">Grupo Alura</h2>
+            </footer>
+          
           <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
           <script>const swiper = new Swiper('.swiper', {
             spaceBetween: 10,

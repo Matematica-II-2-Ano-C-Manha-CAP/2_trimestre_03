@@ -12,6 +12,7 @@
     --fonte-principal: "Poppins";
     --azul: #002f52;
     --fonte-secundaria: "Josefin Sans";
+    --preto: #000000;
   }
   body {
     background-color: var(--cor-de-fundo);
@@ -22,6 +23,7 @@
   .cabeçalho {
     background-color: var(--branco);
     }
-  h1 {
+  .h1 {
     background-color: rgb(24, 22, 22);
   }
+
