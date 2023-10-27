@@ -5,6 +5,31 @@ font-family: var(--fonte-secundario);
 font-size: 30px;
 }
 }
+
+@media screen and (min-width: 1728px) {
+ .container_link{
+display: flex;
+align-items: center;
+text-decoration: none;
+color: var(--preto);
+ }
+
+}
+
+.cabeçalho{
+    padding: 0 2em;
+}
+
+.opcoes{
+    margin-right: auto;
+}
+.container_texto{
+    display:none;
+}
+.container_texto{
+    display:block;
+}
+
  .cabeçalho_menu-hamburguer{
     width: 24px;
     height: 24px;

@@ -5,11 +5,17 @@
     }
     }
 
+    @media screen and (min-width: 1728px) {
+        .banner_pesquisa {
+        width:35%;
+        }
+        }
+
 .banner{
     background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
-    padding: 2.5em 2em;
+    padding: 6em 0;
 }
 .banner_titulo{
     font-size: 18px;
@@ -39,7 +45,7 @@ width: 100%;
     text-align: center;
     color: var(--branco);
     background: url("../img/Lupa.svg") no-repeat;
-    background-position: 1em;
+    background-position: 12em;
     }
 
 

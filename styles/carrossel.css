@@ -3,6 +3,16 @@
         font-size: 26px;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel_container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+        
+ }
+}
+
 .carrossel_titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -27,7 +37,10 @@
         }
     .swiper-pagination {
             position: initial;
-            margin: 2em 0 3em 0;
+            margin: 1em 0;
+            }
+            .swiper{
+                width:50%;
             }
     .card_descricao {
                 display: flex;
@@ -54,12 +67,12 @@
     }
     .descricao_titulo-livro {
         color: var(--azul);
-        font-size: 18px;
+        font-size: 32px;
         font-weight: 700;
         margin: 0.5em 0;
         }
         .descricao_texto{
-            font-size: 14px;
+            font-size: 16px;
         }
     .botoes_item {
         margin: 0 0.5em;
@@ -73,6 +86,10 @@
         }
 
     .card{
-        width: 40%;
-        margin: 2em auto;
+        width: 60%;
+        margin-left: 3em;
+    }
+
+    .descricao{
+        margin-right: 3em;
     }
